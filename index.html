@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Box Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <div class="game-container">
+            <h1 class="game-title">Catch the Box</h1>
+            <div id="box" class="box"></div>
+            <div id="score">Score: 0</div>
+        </div>
+        <div class="controls">
+            <label for="speed">Box Speed:</label>
+            <input type="range" id="speed" min="500" max="3000" step="100" value="1000">
+            <span id="speed-value">1000 ms</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
